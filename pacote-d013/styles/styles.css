@@ -37,3 +37,33 @@ section#telefone {
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat
 }
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 20px;
+    width: 269px;
+    height: 471px;
+}
+
+#redes-sociais{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: right;
+}
+
+#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000052;
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-3px -3px);
+    box-shadow: 4px 4px 10px #00000052;
+    transition: .3s, border .3s;
+}
